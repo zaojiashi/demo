@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>演示demo</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="paidan.css">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/paidan.css">
     <link rel="shortcut icon" href="/hao/assets/icon/meiai.png" type="image/x-icon">
     <style>
         body .container {
             width: 1200px;
             height: 880px;
-            background-image: url(paidan.jpg);
+            background-image: url(static/image/paidan.jpg);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             margin: 36px auto;
@@ -22,7 +22,7 @@
 </head>
 
 <body onload="disableInfo()">
-    <script src="html2canvas.js"></script>
+    <script src="static/js/html2canvas.js"></script>
     <div id="tryhtml2canvas" class="css-1xamfmm">
         <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMuMiIvPgogICAgPHBhdGggZD0iTTkgMkw3LjE3IDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yaC0zLjE3TDE1IDJIOXptMyAxNWMtMi43NiAwLTUtMi4yNC01LTVzMi4yNC01IDUtNSA1IDIuMjQgNSA1LTIuMjQgNS01IDV6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=" alt="Try html2canvas" class="css-1bgbwga"></div>
     <div id="output"></div>
@@ -80,9 +80,9 @@
         </div>
     </div>
 
-    <script src="canvas.js"></script>
-    <script src="index.js"></script>
-    <script src="debug.js"></script>
+    <script src="static/js/canvas.js"></script>
+    <script src="/hao/assets/js/index.js"></script>
+    <script src="/hao/assets/js/debug.js"></script>
 
 </body>
 
@@ -93,22 +93,22 @@
         var tim = new Date()
         var year = tim.getFullYear()
         var month = tim.getMonth() + 1
-        monthlength = month.toString()。length
+        monthlength = month.toString().length
         monthlength == 1 ? month = "0" + month : month
         var dat = tim.getDate()
-        var datlength = dat.toString()。length
+        var datlength = dat.toString().length
         datlength == 1 ? dat = "0" + dat : dat
         var hours = tim.getHours()
-        var hourslength = hours.toString()。length
+        var hourslength = hours.toString().length
         hourslength == 1 ? hours = "0" + hours : hours
         var minu = tim.getMinutes()
-        var minulength = minu.toString()。length
+        var minulength = minu.toString().length
         minulength == 1 ? minu = "0" + minu : minu
         var seco = tim.getSeconds()
-        var secolength = seco.toString()。length
+        var secolength = seco.toString().length
         secolength == 1 ? seco = "0" + seco : seco = seco
         ctime.innerHTML = "当前时间:" + year + "年" + month + "月" + dat + "日" + hours + ":" + minu + ":" + seco
-    }， 1000)
+    }, 1000)
 </script>
 
 

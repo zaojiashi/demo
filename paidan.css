@@ -1,0 +1,252 @@
+@font-face {
+    font-family: PingFangSC;
+    src: url(../font/PingFangSC_1.ttf);
+}
+
+body {
+    margin: 0px auto;
+    background-color: #2d2d2c;
+    position: relative;
+    overflow: hidden;
+}
+
+#capture {
+    height: 900px;
+}
+
+#click,
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    z-index: 98;
+    left: 30px;
+    top: 90px;
+    z-index: -1;
+}
+
+#click div a img,
+.click div a img {
+    width: 24px;
+}
+
+#click div:last-child,
+.click div:last-child {
+    margin-top: 48px;
+}
+
+.css-1xamfmm,
+[data-css-1xamfmm] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 82%;
+    top: 90%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transform: scale;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+span,
+p,
+a {
+    font-family: PingFangSC;
+}
+
+body {
+    background-color: #000;
+}
+
+body .container {
+    width: 1600px;
+    height: 900px;
+    background-image: url(/hao/assets/images/wy/dae-bj.jpg);
+    background-size: 100% auto;
+    margin: 30px auto;
+    position: relative;
+    z-index: 3;
+}
+
+.c_text {
+    position: absolute;
+    top: 322px;
+    left: 716px;
+    z-index: -1;
+}
+
+.c_text .c_time {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fae3b8;
+}
+
+.id_text {
+    position: absolute;
+    top: 322px;
+    left: 310px;
+    z-index: 1;
+}
+
+.id_text p {
+    font-size: 20px;
+    font-weight: 380;
+    color: #424242;
+}
+
+.datime {
+    color: #424242;
+    position: absolute;
+    font-weight: 600;
+    top: 646px;
+    left: 1164px;
+    font-size: 12px;
+}
+
+.datime p {
+    line-height: 57px;
+}
+
+.con_text1 {
+    position: absolute;
+    top: 444px;
+    left: 82px;
+    z-index: 1;
+}
+
+.con_text1 {
+    position: absolute;
+    top: 444px;
+    left: 100px;
+    z-index: 1;
+}
+
+.con_text1 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}
+
+.con_text2 {
+    position: absolute;
+    top: 444px;
+    left: 195px;
+    z-index: 1;
+}
+
+.con_text2 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}
+
+.con_text3 {
+    position: absolute;
+    top: 444px;
+    left: 415px;
+    z-index: 1;
+}
+
+.con_text3 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}
+
+.con_text4 {
+    position: absolute;
+    top: 444px;
+    left: 562px;
+    z-index: 1;
+}
+
+.con_text4 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}
+
+.con_text5 {
+    position: absolute;
+    top: 444px;
+    left: 716px;
+    z-index: 1;
+}
+
+.con_text5 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}
+
+.con_text6 {
+    position: absolute;
+    top: 444px;
+    left: 872px;
+    z-index: 1;
+}
+
+.con_text6 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #25c400;
+    line-height: 51px;
+}
+
+.con_text6 .red {
+    font-size: 16px;
+    font-weight: 300;
+    color: red;
+    line-height: 51px;
+}
+
+.con_text7 {
+    position: absolute;
+    top: 444px;
+    left: 1048px;
+    z-index: 1;
+}
+
+.con_text7 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}
+
+.con_text8 {
+    position: absolute;
+    top: 444px;
+    left: 1080px;
+    z-index: 1;
+}
+
+.con_text8 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 51px;
+}

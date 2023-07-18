@@ -1,0 +1,194 @@
+@font-face {
+    font-family: PingFangSC;
+    src: url(/hao/code/fonts/pingfangsc_1.ttf);
+}
+
+body {
+    margin: 0px auto;
+    background-color: #2d2d2c;
+    overflow: hidden;
+}
+
+#capture {
+    width: 700px;
+    height: 1366px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.css-1xamfmm,
+[data-css-1xamfmm] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 76%;
+    top: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transform: scale;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+span,
+p,
+a {
+    font-family: PingFangSC;
+}
+
+body {
+    background-color: #858585;
+}
+
+body .container {
+    width: 700px;
+    height: 1366px;
+    background-image: url(/hao/code/images/bj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: -280px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.id_text {
+    position: absolute;
+    top: 394px;
+    left: 130px;
+    text-align: center;
+    z-index: 1;
+}
+
+.id_text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fee6bc;
+    line-height: 20px;
+}
+
+.id_text .pspan {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.id_text1 {
+    position: absolute;
+    top: 494px;
+    left: 130px;
+    text-align: center;
+    z-index: 1;
+}
+
+.id_text1 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fee6bc;
+    line-height: 20px;
+}
+
+.id_text1 .pspan {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.id_text2 {
+    position: absolute;
+    top: 594px;
+    left: 130px;
+    text-align: center;
+    z-index: 1;
+}
+
+.id_text2 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fee6bc;
+    line-height: 20px;
+}
+
+.id_text2 .pspan {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.id_text3 {
+    position: absolute;
+    top: 720px;
+    left: 130px;
+    text-align: center;
+    z-index: 1;
+}
+
+.id_text3 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fee6bc;
+    line-height: 20px;
+}
+
+.id_text3 .pspan {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.id_text4 {
+    position: absolute;
+    top: 848px;
+    left: 130px;
+    text-align: center;
+    z-index: 1;
+}
+
+.id_text4 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fee6bc;
+    line-height: 20px;
+}
+
+.id_text4 .pspan {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.id_text5 {
+    position: absolute;
+    top: 994px;
+    left: 130px;
+    text-align: center;
+    z-index: 1;
+}
+
+.id_text5 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fee6bc;
+    line-height: 20px;
+}
+
+.id_text5 .pspan {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}

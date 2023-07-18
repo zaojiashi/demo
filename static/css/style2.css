@@ -1,0 +1,140 @@
+@font-face {
+    font-family: PingFangSC;
+    src: url(../font/PingFangSC_1.ttf);
+}
+
+body {
+    margin: 0px auto;
+    background-color: #2d2d2c;
+    overflow: hidden;
+}
+
+#capture {
+    width: 800px;
+    height: 1423px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.css-1xamfmm,
+[data-css-1xamfmm] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 76%;
+    top: 90%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transform: scale;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+span,
+p,
+a {
+    font-family: PingFangSC;
+}
+
+body {
+    background-color: #858585;
+}
+
+body .container {
+    width: 800px;
+    height: 1423px;
+    background-image: url(/hao/code/yuepaoka/image/bj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: -580px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.id_text {
+    position: absolute;
+    top: 1008px;
+    left: 120px;
+    text-align: left;
+    z-index: 1;
+}
+
+.id_text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 32px;
+}
+
+.id_text3 {
+    position: absolute;
+    top: 870px;
+    left: 120px;
+    text-align: left;
+    z-index: 1;
+}
+
+.id_text3 .topp {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ca8f6f;
+    line-height: 32px;
+}
+
+.id_text .pspan {
+    font-size: 27px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.id_text1 {
+    position: absolute;
+    top: 1217px;
+    left: 120px;
+    text-align: left;
+    z-index: 1;
+}
+
+.id_text1 p {
+    font-size: 21px;
+    font-weight: 300;
+    color: #956b48;
+    line-height: 36px;
+}
+
+.id_text2 {
+    position: absolute;
+    top: 1008px;
+    right: 120px;
+    text-align: right;
+    z-index: 1;
+}
+
+.id_text2 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 32px;
+}
+
+.id_text2 .pspan {
+    font-size: 27px;
+    font-weight: 300;
+    color: #fff;
+}

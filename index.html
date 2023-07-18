@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>黑色抢单金额</title>
-    <link rel="stylesheet" href="static/css/reset.css">
-    <link rel="stylesheet" href="static/css/paidan.css">
+    <title>演示demo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="paidan.css">
     <link rel="shortcut icon" href="/hao/assets/icon/meiai.png" type="image/x-icon">
     <style>
         body .container {
@@ -93,22 +93,22 @@
         var tim = new Date()
         var year = tim.getFullYear()
         var month = tim.getMonth() + 1
-        monthlength = month.toString().length
+        monthlength = month.toString()。length
         monthlength == 1 ? month = "0" + month : month
         var dat = tim.getDate()
-        var datlength = dat.toString().length
+        var datlength = dat.toString()。length
         datlength == 1 ? dat = "0" + dat : dat
         var hours = tim.getHours()
-        var hourslength = hours.toString().length
+        var hourslength = hours.toString()。length
         hourslength == 1 ? hours = "0" + hours : hours
         var minu = tim.getMinutes()
-        var minulength = minu.toString().length
+        var minulength = minu.toString()。length
         minulength == 1 ? minu = "0" + minu : minu
         var seco = tim.getSeconds()
-        var secolength = seco.toString().length
+        var secolength = seco.toString()。length
         secolength == 1 ? seco = "0" + seco : seco = seco
         ctime.innerHTML = "当前时间:" + year + "年" + month + "月" + dat + "日" + hours + ":" + minu + ":" + seco
-    }, 1000)
+    }， 1000)
 </script>
 
 
